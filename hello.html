@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> <div class="title">
   <title>CSS Example</title>
   <link rel="stylesheet" type="text/css" href="style_alternate.css">
+</div>
 </head>
 <style>
-	.vege {color:green}
-	#bgred {background: #0431B4}
-	.muggle {background: red}
 	:checked {
   margin-left: 25px;
   border: 1px solid blue;
 }
+.title {background: green}
+.container {background:yellow}
+.sidebar {
+		  width:100%;
+		  top:60px;
+		  background: red
+		}
 
+.content {background: blue}
 </style>
 <body>
+	<div class="container">
+	<div class="sidebar">
+		ay lmao
+
+	</div>
+	<div class="content">
 	<a href="youtube.com">visit youtube</a>
 	<a href="google.com" class="muggle">visit google </a>
 	<p>my fav foods are :</p>
 	<ul>
 		<li><h3>pizza</h3></li>
-		<li id="bgred">hamburgers</li>
+		<li>hamburgers</li>
 		<li>cheese</li>
-		<li class="vege">popcorn</li>
+		<li>popcorn</li>
 	</ul>
 	<p class="muggle">testing a  paragraph</p>
-
+</div>
 <form>
 	<input type="checkbox" name="male" value="male"> Male
 
 	<input type="checkbox" name="female" value="female"> female
 
 </form>
-
+</div>
 </body>
 </html>
