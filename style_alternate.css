@@ -1,0 +1,12 @@
+
+/*everything on one line , dont judge */
+.muggle {background: red}
+p {color: lightblue}
+body {background: darkblue}
+a {color: #5882FA}
+li {color: #81BEF7}
+p {
+    font-family: "Comic Sans MS";
+}
+p {font-size: 50px}
+p.muggle {background: green}
